@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator.</title>
+    <link rel="stylesheet" href="./calcu.css">
+    <link rel="shortcut icon" href="../My portfolio/Media/DYBV1047.JPG" type="image/x-icon">
+</head>
+<body>
+
+    <!-- Calculator -->
+
+    <div class="calculator">
+
+        <div class="container">
+
+            <div class="screen">
+                <input type="text" id="display" disabled value="0">
+            </div>
+
+            <div class="btns">
+                <button class="butt"  onclick="pressClear()">AC</button>
+                <button class="butt" onclick="pressDelete()">X</button>
+                <button class="butt" onclick="pressPercentage()">%</button>
+                <button class="btn-yellow" onclick="pressDivision()">/</button>
+            </div>
+
+            <div class="btns">
+                <button  onclick="pressNine(this)">7</button>
+                <button  onclick="pressNine(this)">8</button>
+                <button  onclick="pressNine(this)">9</button>
+                <button class="btn-yellow" onclick="pressTimes()">x</button>
+
+            </div> 
+
+            <div class="btns">
+                <button  onclick="pressNine(this)">4</button>
+                <button  onclick="pressNine(this)">5</button>
+                <button  onclick="pressNine(this)">6</button>
+                <button class="btn-yellow"  onclick="pressMinus()">-</button>
+
+            </div>
+
+            <div class="btns">
+                <button  onclick="pressNine(this)">1</button>
+                <button  onclick="pressNine(this)">2</button>
+                <button  onclick="pressNine(this)">3</button>
+                <button class="btn-yellow" onclick="pressPlus()">+</button>
+            </div>
+
+            <div class="btns">
+                <button class="last-btn"   onclick="pressNine(this)">0</button>
+                <button  onclick="pressDot()">.</button>
+                <button class="btn-yellow" onclick="pressEqual()">=</button>
+            </div>
+
+
+        </div>
+
+
+
+    </div>
+    
+
+
+
+
+
+
+
+
+
+
+
+    <!-- <div class="bet-interface"> 
+        <input type="text" id="screen">
+        <input type="number" id="num">
+        <input type="number" id="num">
+        <input type="button" value="Play">
+
+
+    </div> -->
+
+
+
+
+
+
+
+    <script src="./calcu.js"></script>
+</body>
+</html>

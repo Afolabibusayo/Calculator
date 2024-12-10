@@ -1,0 +1,392 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    background-color: rgb(36, 35, 35);
+    color: white;
+} 
+
+/* header section starts */
+.myName {
+  margin: 10px 0;
+  font-size: 1.8rem;
+}
+
+.header{
+    /* background-image: url(./Media/codes\ ss.png); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    /* min-height: 70vh; */
+    padding-inline: 30px;
+    padding-block: 20px;
+    background-color: black;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.header-head{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-head .text{
+    font-size: 30px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+
+.header-head .nav .nav{
+    display: flex;
+    gap: 20px;
+    padding-inline: 10px;
+    list-style-type: none;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+
+span{
+    color:aqua;
+}
+
+.texts {
+    text-align: center;
+}
+
+.sidebar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 250px;
+    z-index: 999;
+    background-color: rgb(75, 73, 73);
+    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 20px;
+    font-size: 20px;
+    padding-inline: 30px;
+}
+
+.sidebar li{
+    width: 100%;
+}
+
+.sidebar a{
+    width: 100%;
+    /* padding-block: 15px; */
+}
+
+
+
+.header-head .nav .sidebar li{
+    list-style: none;
+}
+
+.header-head .nav .sidebar a{
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+    /* display: flex; */
+    /* flex-direction: row; */
+}
+
+.header .texts{
+    padding: 30px 0;
+}
+
+.header .texts p{
+    font-size: 2rem;
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.icons img{
+    width: 3%;
+    border-radius: 50%;
+}
+
+.nav .menu-button{
+    display: none;
+}
+
+
+/* header section ends */
+/* service section starts */
+
+.service{
+    padding: 1rem;
+}
+
+.service p, h3{
+    text-align: center;
+    margin: 0;
+    font-weight: 300;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.service .serve{
+    opacity: 0.6;
+    font-size: 15px;
+}
+
+.service h3{
+    font-size: 1.8rem;
+}
+
+.ser-con {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding-top: 25px;
+    
+}
+
+.service .ser-con .cont-items-1{
+    background-color: aquamarine;
+    border-radius: 5px;
+    padding-block: 35px;    
+    padding-inline: 30px;   
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.service .ser-con .cont-items{
+    border: 1px solid aquamarine;
+    border-radius: 5px;
+    padding-block: 35px;
+    padding-inline: 30px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(75, 73, 73);
+}
+
+.service .ser-con h2{
+    text-align: right;
+    padding-inline: 10px;
+    font-size: 2rem;
+    opacity: .3;
+    margin: 0%;
+}
+
+.service .ser-con .cont-items-1 img{
+    width: 13%;
+}
+
+.service .ser-con .cont-items img{
+    width: 15%;
+}
+
+.ser-con .skills{
+    font-size: 1.2rem;
+    margin: 0%;
+    padding-block: 10px;
+
+}
+
+.ser-con   .text{
+    font-size: 14px;
+    text-align: left;
+    min-width: 160px;
+    margin-top: 0;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* service section ends */
+/* about-me section starts */
+
+.about-me{
+    background-color: black;
+    text-align: center;
+    padding: 1rem;
+}
+
+.about-me .my{
+    opacity: 0.5;
+    margin: 0;
+    font-size: 15px;
+}
+
+.about-me h4{
+    margin: 0;
+    font-size: 1.5rem;
+    padding: 5px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.about-me .content-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding-block: 20px;
+    margin: 0 20px;
+}
+
+
+
+.content-item p{
+    font-size: 1rem;
+    text-align: left;
+    color: wheat;
+    font-family: 'Times New Roman', Times, serif;
+    margin-block: 20px;
+}
+
+
+
+.content-item-1 .imgg{
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+/* about-me section ends */
+/* footer section starts */
+
+.footer{
+    background-color: rgb(36, 35, 35);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.footer .text{
+    font-size: 1.2rem;
+    padding-block: 10px;
+}
+
+.footer .footer-texts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.footer .footer-texts ul{
+    list-style-type: none;
+    border-right: 2px solid grey;
+    border-left: 2px solid grey;
+    padding-inline: 15px;
+}
+
+.footer .footer-texts ul a{
+    text-decoration: none;
+    color: white;
+    text-align: left;
+}
+
+.footer .footer-texts a, p{
+    margin: 0;
+    padding: 3px;
+    opacity: .7;
+}
+
+
+@media  screen and (max-width:700px){
+    .nav .menu-button{
+        display: block;
+    }
+
+    .hideOnMobile{
+        display: none;
+    }
+
+    .header .icons{
+        margin-top: 15px;
+    }
+
+
+    .ser-con {
+        display:flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .content-box {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer .footer-texts{
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .footer .footer-texts ul{
+        list-style-type: none;
+        border: none;
+        text-align: left;
+    }
+
+    .footer .text{
+        font-size: 1.5rem;
+    }
+
+}
+
+@media (max-width: 400px) {
+
+    .sidebar{
+        width: 100%;
+    }
+    .ser-con {
+        display:flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .content-box {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header .texts p{
+        font-size: 1.2rem;
+    }
+
+    .footer{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer .footer-texts ul{
+        list-style-type: none;
+        border: none;
+        text-align: left;
+    }
+
+
+}
+
